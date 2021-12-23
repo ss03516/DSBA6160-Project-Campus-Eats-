@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">schema_nm</Data></Cell>
+			<Cell><Data ss:Type="String">table_nm</Data></Cell>
+			<Cell><Data ss:Type="String">obj_typ</Data></Cell>
+			<Cell><Data ss:Type="String">ord</Data></Cell>
+			<Cell><Data ss:Type="String">is_key</Data></Cell>
+			<Cell><Data ss:Type="String">column_nm</Data></Cell>
+			<Cell><Data ss:Type="String">data_typ</Data></Cell>
+			<Cell><Data ss:Type="String">nullable</Data></Cell>
+			<Cell><Data ss:Type="String">column_descr</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">delivery</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">delivery_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">delivery</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">driver_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">delivery</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">vehicle_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">delivery</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">delivery_time</Data></Cell>
+			<Cell><Data ss:Type="String">datetime(8)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">driver_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">student_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">license_number</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">date_hired</Data></Cell>
+			<Cell><Data ss:Type="String">date(3)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">float(12)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">driver_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(300)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Order Count</Data></Cell>
+			<Cell><Data ss:Type="String">bigint(19)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">driver_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(14,4)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">faculty</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">faculty_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">faculty</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">faculty</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">title</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">faculty</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">degree_college</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">faculty</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">highest_degree</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK,UK</Data></Cell>
+			<Cell><Data ss:Type="String">location_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">location_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">location_address</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">latitude</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">longitude</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">drop_off_point</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">order_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">delivery_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">location_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">driver_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">total_price</Data></Cell>
+			<Cell><Data ss:Type="String">float(12)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">delivery_charge</Data></Cell>
+			<Cell><Data ss:Type="String">float(12)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">order_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">driver_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(300)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Driver Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(14,4)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Restaurant_Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(14,4)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Average_Order_Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(15,4)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">9</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Average Driver's Order's Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(19,8)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">order_rating_comparison</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Average Restaurant's Order's Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(19,8)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(300)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_email</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(150)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">cell</Data></Cell>
+			<Cell><Data ss:Type="String">bigint(19)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_join</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_join</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(300)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_join</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_email</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(150)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_join</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">student_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_join</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">graduation_year</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_student</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_student</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(300)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_student</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">person_email</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(150)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">person_student</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">cell</Data></Cell>
+			<Cell><Data ss:Type="String">bigint(19)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">FK,PK</Data></Cell>
+			<Cell><Data ss:Type="String">order_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">driver_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">driver_rating</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_rating</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">location</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">schedule</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">website</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">rating</Data></Cell>
+			<Cell><Data ss:Type="String">float(12)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_name</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Driver_Count</Data></Cell>
+			<Cell><Data ss:Type="String">bigint(19)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Number of Orders</Data></Cell>
+			<Cell><Data ss:Type="String">bigint(19)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">restaurant_rating_view</Data></Cell>
+			<Cell><Data ss:Type="String">VW</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">Rating</Data></Cell>
+			<Cell><Data ss:Type="String">decimal(14,4)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">staff</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">staff_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">staff</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">staff</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">position</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">staff</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">is_admin</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(1)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">student</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">student_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">student</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">FK</Data></Cell>
+			<Cell><Data ss:Type="String">person_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">student</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">graduation_year</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">student</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">major</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">student</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">type</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">vehicle</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">PK</Data></Cell>
+			<Cell><Data ss:Type="String">vehicle_id</Data></Cell>
+			<Cell><Data ss:Type="String">int(10)</Data></Cell>
+			<Cell><Data ss:Type="String">NOT NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">vehicle</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">vehicle_plate</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">vehicle</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">model</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">campus_eats_fall2020</Data></Cell>
+			<Cell><Data ss:Type="String">vehicle</Data></Cell>
+			<Cell><Data ss:Type="String">TBL</Data></Cell>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String"> </Data></Cell>
+			<Cell><Data ss:Type="String">make</Data></Cell>
+			<Cell><Data ss:Type="String">varchar(75)</Data></Cell>
+			<Cell><Data ss:Type="String">NULL</Data></Cell>
+			<Cell><Data ss:Type="String"></Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
